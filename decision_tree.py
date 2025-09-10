@@ -81,8 +81,8 @@ elif wantsToPlay.lower() == "no":
     print("He says that he is here for you and only you")
     print("He wants to ask you a question")
     print('"What is your favorite number?"')
-    favoriteNumber = input()
-    if favoriteNumber.lower() != "67":
+    favoriteColor = input()
+    if favoriteColor.lower() != "67":
         print("He cannot believe that your favorite number isn't 67!!!")
         print("Due to god's astonishment, he forces you to contract a deadly disease that your dad also has.")
         print("Would you like to go find the medicine?")
@@ -96,9 +96,9 @@ elif wantsToPlay.lower() == "no":
         sleep(6.7)
         print("Would you like to play Clash Royale now? This is your chance to redeem yourself")
         playClash = input()
-        print("What is your favorite number again?")
-        favoriteNumber = input()
-        if playClash.lower() == "yes":
+        print("What is your favorite color?")
+        favoriteColor = input()
+        if favoriteColor.lower() == "clash royale green" and playClash.lower("yes"):
             print("OH NO!!!")
             sleep(1)
             print("Despite all of your efforts to save the world, you failed")
@@ -113,5 +113,5 @@ elif wantsToPlay.lower() == "no":
             print("I hope you understand that your actions have consequences.")
             print("Goodbye.")
 
-        elif favoriteNumber == "67" and playClash.lower("yes"):
+        elif playClash.lower() == "yes":
             print("The world is saved!!! Finally we have been freed, thank you!!!!")
