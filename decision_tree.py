@@ -82,7 +82,7 @@ elif wantsToPlay.lower() == "no":
     print("He wants to ask you a question")
     print('"What is your favorite number?"')
     favoriteNumber = input()
-    if favoriteColor.lower() != "67":
+    if favoriteNumber.lower() != "67":
         print("He cannot believe that your favorite number isn't 67!!!")
         print("Due to god's astonishment, he forces you to contract a deadly disease that your dad also has.")
         print("Would you like to go find the medicine?")
