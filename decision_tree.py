@@ -81,7 +81,7 @@ elif wantsToPlay.lower() == "no":
     print("He says that he is here for you and only you")
     print("He wants to ask you a question")
     print('"What is your favorite number?"')
-    favoriteColor = input()
+    favoriteNumber = input()
     if favoriteColor.lower() != "67":
         print("He cannot believe that your favorite number isn't 67!!!")
         print("Due to god's astonishment, he forces you to contract a deadly disease that your dad also has.")
