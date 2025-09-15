@@ -98,7 +98,7 @@ elif wantsToPlay.lower() == "no":
         playClash = input()
         print("What is your favorite color?")
         favoriteColor = input()
-        if favoriteColor.lower() == "clash royale green" and playClash.lower("yes"):
+        if favoriteColor.lower() == "clash royale green" and playClash.lower() == "yes":
             print("OH NO!!!")
             sleep(1)
             print("Despite all of your efforts to save the world, you failed")
