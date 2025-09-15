@@ -1,0 +1,117 @@
+from time import sleep
+
+print("I cannot believe you finally woke up! Thank god you're here.")
+print("Here is your phone, Would you like to play Clash Royale?")
+wantsToPlay = input()
+
+if wantsToPlay.lower() == "yes":
+    print("I AM SO GLAD YOU MADE THAT DECISION")
+    print("YOUR MOM HAS BEEN SAVED!!!!!!")
+    print("She was at a great risk of dying but you saved her.")
+    sleep(3)
+    print("However, your father...")
+    sleep(5)
+    print("WILL DIE SOON! HE HAS CONTRACTED A DEADLY DISEASE AND WILL DIE IN THE NEXT 3 MINUTES.")
+    print("Would you like to continue to play Clash?")
+    continuesToPlay = input()
+    if continuesToPlay.lower() == "yes":
+        print("I CANNOT BELIEVE YOU DECIDED TO CONTINUE TO PLAY CLASH ROYALE")
+        sleep(5)
+        print("YOUR FATHER LIVED BECAUSE OF IT, YOUR FAMILY IS SAVED!!!")
+        print("YOU ARE NOW THE ULITMATE SAVIOR OF YOUR FAMILY, EVERYONE PRAISES YOU!!!!")
+        print("Would you like to continue to play Clash")
+        continuesToPlayAgain = input()
+        if continuesToPlayAgain.lower() == "yes":
+            print("Guess what?")
+            sleep(3)
+            print("YOU JUST WON 1 BILLION DOLLARS, CONGRATULATIONS!!!")
+            print("I HOPE YOU CONTINUE TO MAKE GREAT DECISIONS FOR THE SAKE OF YOUR FAMILY AND THE WORLD")
+        elif continuesToPlayAgain.lower() == "no":
+            print("Well...")
+            sleep(5)
+            print("Your father has died.")
+            print("Despite this, you can redeem yourself.")
+            sleep(3)
+            print("Would you like to play Clash Royale?")
+            pickupClashAgain = input()
+            if pickupClashAgain.lower() == "yes":
+                print("Guess what?")
+                sleep(5)
+                print("YOU INHERITED 1 BILLION DOLLARS")
+                print("That is a lot of money for 1 person!")
+                sleep(3)
+                print("Would you mind sharing some with me?")
+                print("Just kidding.")
+                sleep(3)
+                print("Wait. I just got news that YOU SAVED THE WORLD")
+                print("YOU ARE THE GREATEST HUMAN BEING TO EVER LIVE.")
+                print("Congratulations!!!")
+            elif pickupClashAgain.lower() == "no":
+                print("Due to this abhorrent choice of yours, the whole world has DIED AND EXPLODED")
+                print("You are now left with no family, no friends, and most importantly, no Clash Royale")
+                print("You should be ashamed of yourself.")
+
+    elif continuesToPlay == "no":
+        print("Well...")
+        sleep(5)
+        print("Your father has died.")
+        print("Despite this, you can redeem yourself.")
+        sleep(3)
+        print("Would you like to play Clash Royale?")
+        pickupClashAgain = input()
+        if pickupClashAgain.lower() == "yes":
+            print("Guess what?")
+            sleep(5)
+            print("YOU INHERITED 1 BILLION DOLLARS")
+            print("That is a lot of money for 1 person!")
+            sleep(3)
+            print("Would you mind sharing some with me?")
+            print("Just kidding.")
+            sleep(3)
+            print("Wait. I just got news that YOU SAVED THE WORLD")
+            print("YOU ARE THE GREATEST HUMAN BEING TO EVER LIVE.")
+            print("Congratulations!!!")
+        elif pickupClashAgain.lower() == "no":
+            print("Due to this abhorrent choice of yours, the whole world has DIED AND EXPLODED")
+            print("You are now left with no family, no friends, and most importantly, no Clash Royale")
+            print("You should be ashamed of yourself.")
+                    
+elif wantsToPlay.lower() == "no":
+    print("Due to you saying no, GOD HAS APPEARED.")
+    print("He says that he is here for you and only you")
+    print("He wants to ask you a question")
+    print('"What is your favorite number?"')
+    favoriteNumber = input()
+    if favoriteNumber.lower() != "67":
+        print("He cannot believe that your favorite number isn't 67!!!")
+        print("Due to god's astonishment, he forces you to contract a deadly disease that your dad also has.")
+        print("Would you like to go find the medicine?")
+        findMedicine = input()
+        print("Just kidding, it doesn't matter. You die either way.")
+        print("Due to your choice to not play Clash Royale, you die.")
+        print("Goodbye.")
+
+    else:
+        print("Good Boy.")
+        sleep(6.7)
+        print("Would you like to play Clash Royale now? This is your chance to redeem yourself")
+        playClash = input()
+        print("What is your favorite color?")
+        favoriteColor = input()
+        if favoriteColor.lower() == "clash royale green" and playClash.lower() == "yes":
+            print("OH NO!!!")
+            sleep(1)
+            print("Despite all of your efforts to save the world, you failed")
+            sleep(3)
+            print("The world has ended, and you have died.")
+            print("Goodbye")
+
+        elif playClash.lower() == "no":
+            print("Since you didn't play Clash Royale...")
+            sleep(5)
+            print("Your family died, and the world has ended")
+            print("I hope you understand that your actions have consequences.")
+            print("Goodbye.")
+
+        elif playClash.lower() == "yes":
+            print("The world is saved!!! Finally we have been freed, thank you!!!!")
